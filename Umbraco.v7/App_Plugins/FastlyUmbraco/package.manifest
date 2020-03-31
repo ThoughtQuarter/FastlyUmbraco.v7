@@ -1,0 +1,27 @@
+﻿{
+    "propertyEditors": [
+        {
+            "alias": "fastlyPurgeButton",
+            "name": "Purge Cache Button",
+            "icon": "icon-scull",
+            "group": "fastly",
+            "editor": {
+                "view": "~/App_Plugins/FastlyUmbraco/propertyEditors/purgeButtonEditor.html"
+            }
+        },
+        {
+            "alias": "fastlyCacheDurationDropdown",
+            "name": "Cache Duration",
+            "icon": "icon-indent",
+            "group": "fastly",
+            "editor": {
+                "view": "~/App_Plugins/FastlyUmbraco/propertyEditors/cacheDurationDropdownEditor.html"
+            }
+        }
+    ],
+
+    "javascript": [
+        "~/App_Plugins/FastlyUmbraco/propertyEditors/purgeButtonEditor.controller.js",
+        "~/App_Plugins/FastlyUmbraco/propertyEditors/cacheDurationDropdownEditor.controller.js"
+    ]
+}
